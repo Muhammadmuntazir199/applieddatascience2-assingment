@@ -2,7 +2,7 @@
 import pandas
 import matplotlib.pyplot as plot
 import seaborn
-olympicsecnomics = pandas.read_csv(r'C:\Users\faiza\Downloads\olympics-economics.csv')
+olympicsecnomics = pandas.read_csv(r'C:\Users\muntazir\Downloads\olympics-economics.csv')
 print(olympicsecnomics.head())
 #cleaning the dataset 
 print(olympicsecnomics.isnull().sum())
